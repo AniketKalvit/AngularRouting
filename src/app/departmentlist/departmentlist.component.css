@@ -1,0 +1,7 @@
+ul li:hover{
+    cursor: pointer;
+}
+li.selected
+{
+    background-color: orange;
+}

@@ -1,0 +1,8 @@
+<div class="container">
+<ul class="list-group">
+  <li *ngFor="let d of deptList" class="list-group-item" 
+  (click)="onSelect(d)" [class.selected]="isSelected(d)">
+    <span class="badge badge-primary">{{d.id}}</span> {{d.name}}
+  </li>
+</ul>
+</div>
